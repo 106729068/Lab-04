@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <link href="lab04.css" rel="stylesheet">
+</head>
+<body>
+    <h1>HTML 5 Basic Content Elements with some Simple CSS</h1>
+<nav>
+    <a href ="Headings and paragraphs">Headings and Paragraphs </a>
+    <a href ="SC"> Special Characters</a>
+    <a href ="lists">Lists</a>
+    <a href ="table">Tables</a>
+    <a href ="hyperlink">Hyperlinks</a>
+    <a href ="Images">Images</a>
+</nav>
+
+    <hr>
+    <p>HTML page without CSS styling looks a bit boring!! </p>
+    <h2>Headings and Paragraphs</h2>
+
+    <p>
+        Headings and paragraphs are BLOCK elements
+    </p>
+
+    <h3>Headings</h3>
+
+    <p>
+        There are 6 levels of heading. Headings are logical marked. DO not skip levels. If you want to change the size of a heading, don't change its level-change the CSS.
+    </p>
+
+    <strong>Paragraphs</strong>
+
+    <p>
+        Paragraphs contain the body text of a web page. You cannot put another blocks element inside a paragraph.
+    </p>
+
+    <h2>Special Characters</h2>
+    <p>
+        While HTML support many named special character like <span class="special">&(#174); </span>, XML only supports 5 namely: <span class="special">" '&<and></and>"</span>. So to keep you HTML compliant you need to use numbers for all the others.</and>'
+    </p>
+
+    <h2>Lists</h2>
+
+    <p>There are two types of lists: Unordered and Ordered Lists, and Definition Lists</p>
+
+    <strong>Unordered List</strong>
+    <ul>
+        <li>First bullet point</li>
+        <li>Second bullet point</li>
+        <li>Third bullet point</li>
+    </ul>
+
+    <strong>Ordered List</strong>
+    <ol>
+        <li>First item</li>
+        <li>Second item</li>
+        <li>Third item</li>
+    </ol>
+
+    <strong>Definition</strong>
+    <p>Lists can also be nested inside each other</p>
+
+    <ol>
+        <li>First item</li>
+        <li>Second item</li>
+    
+        <ul>
+            <li>First sub-item</li>
+            <li>Second sub-item</li>
+            <li>Third sub-item</li>
+        </ul>
+
+        <li>Third item</li>
+    </0l>
+
+    <h2>Tables</h2>
+    <table>
+        <Caption>Table of Monthly Savings</Caption>
+        <thead>
+            <!--the scope attribute assists non-visual user agents -->
+            <!--rowspan and colspan allow multiple cells to be merged -->
+            <tr>
+                <th rowspan="2" scope="col">Month</th>
+                <th colspan="3" scope="col">Savings</th>
+            </tr>
+            <tr>
+                <th scope="col">Salary</th>
+                <th scope="col">Interest</th>
+                <th scope="col">Total</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+
+                <td style="text-align:right;"><strong>Jan</strong></td>
+                <td>$60</td>
+                <td>$40</td>
+                <td>$100</td>
+            </tr>
+
+            <tr>
+                <td style="text-align:right;"><strong>Feb</strong></td>
+                <td>$40</td>
+                <td>$40</td>
+                <td>$80</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <td colspan="3"> <strong>Grand Total</strong></td>
+            <td>$180</td>
+        </tfoot>
+    </table>
+
+    <h2 id=""hyperlinks>Hyperlinks</h2>
+
+    <p>
+        <a href="https://swinburne.instructure.com" title="This takes you to Canvas"> This is a link to an external site Blackboard</a>
+    </p>
+    <p>
+        This is a link to the <a href="#list">List Section </a>of this web site
+    </p>
+    <p>
+        This is a link using <a href="mailto:someone@swin.edu.au">email</a> rather than an http protocol>
+    </p>
+    
+    <h2>Images</h2>
+    <p>
+        This thumbnail is uses as a hyperlink to a larger version of the image
+    </p>
+
+    <p>
+    <img src="mycat_small.jpg" alt="mycat_small" title = "lab04.html">
+    </p>
+
+    <hr>
+</body>
+</html>
